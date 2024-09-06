@@ -1,3 +1,5 @@
+import Img from "../../../atoms/img/Img";
+
 const Footer = (): JSX.Element => {
   return (
     <footer
@@ -7,10 +9,10 @@ const Footer = (): JSX.Element => {
       <div className="container">
         <div className="flex flex-col sm:flex-row justify-between items-center text-sm">
           <div className="flex items-center">
-            <img
+            <Img
               className="w-12 h-12 rounded-full"
               src="https://picsum.photos/75/100"
-              alt="لوگو گلستان"
+              alt="لوگو"
             />
             <h6 className="pr-3">ساخته شده توسط واحد بهبود عملیات </h6>
           </div>

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Button from "../../../atoms/button/Button";
 import RoutesPath from "../../../../routers/RoutesEnum";
+import Img from "../../../atoms/img/Img";
 
 const Header = (): JSX.Element => {
   return (
@@ -9,10 +10,10 @@ const Header = (): JSX.Element => {
         <div className="container">
           <div className="flex justify-between items-center relative">
             <Link to={``}>
-              <img
+              <Img
                 className="w-12 h-12 rounded-lg object-cover"
-                src="https://picsum.photos/50/50"
-                alt=""
+                src="https://picsum.photos/75/100"
+                alt="لوگو"
               />
             </Link>
             <div className="flex items-center gap-3">
@@ -23,10 +24,6 @@ const Header = (): JSX.Element => {
                 لیست کاربران
               </Link>
               <Button
-                // onClick={() => {
-                //   setIsShowAccountModal(!isShowAccountModal);
-                //   setIsShowOverlay(true);
-                // }}
                 className="bg-primary text-white rounded-lg py-[6px] px-3 text-sm"
                 title="حساب کاربری"
               />
