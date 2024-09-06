@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/atoms/button/Button";
 import RoutesEnum from "../../../routers/RoutesEnum";
-import InputFormSection from "../../molecules/formSection/InputFormSection";
+import InputFormSection from "../../molecules/auth/InputFormSection";
 import { TReactHookFormRegister } from "../../../models/genralModels";
 
 const ForgetPasswordForm = ({

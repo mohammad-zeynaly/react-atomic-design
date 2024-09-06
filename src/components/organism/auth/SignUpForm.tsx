@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/atoms/button/Button";
 import RoutesEnum from "../../../routers/RoutesEnum";
-import InputFormSection from "../../../components/molecules/formSection/InputFormSection";
-import SelectFormSection from "../../../components/molecules/formSection/SelectFormSection";
+import InputFormSection from "../../molecules/auth/InputFormSection";
+import SelectFormSection from "../../molecules/auth/SelectFormSection";
 import { TReactHookFormRegister } from "../../../models/genralModels";
 
 const SignUpForm = ({
@@ -58,7 +58,7 @@ const SignUpForm = ({
         placeholder="مثال : 23450200"
         requiredMessage="وارد کردن رمز عبور الزامی می باشد"
       />
-    
+
       <Button
         className="bg-primary w-full rounded-lg text-white py-2 text-center mt-3"
         title="ثبت نام"
